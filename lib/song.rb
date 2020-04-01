@@ -41,7 +41,9 @@ class Song
     
      @@genres.map do |type|
     
-      if @@genres.has_key?(type)
+      if @@genres.include?(type)
+        
+        
         
         
       

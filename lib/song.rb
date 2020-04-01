@@ -41,8 +41,9 @@ class Song
     
     @@genres.map do |type, num|
       if type == type
-        num += 1
+        type += 1
       else 
+        
         
   
 end

@@ -39,13 +39,15 @@ class Song
   
   def self.genre_count
     
-    if @@genres.has_key?(key)
+     @@genres.map do |type|
+    
+      if @@genres.has_key?(key)
       
     
     
     else
     
-    @@genres.map do |type
+   
       
       @@genres
         

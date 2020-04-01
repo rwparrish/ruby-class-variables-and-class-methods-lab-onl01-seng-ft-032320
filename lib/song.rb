@@ -67,7 +67,7 @@ def self.artist_count
     
     if artist_count_h[name]
     
-      artist_count_h[name] =+ 1 
+      artist_count_h[name] += 1 
       
     else
       

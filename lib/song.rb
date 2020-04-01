@@ -21,18 +21,11 @@ class Song
     
   end
   
-  def self.genre
+  #def self.genre
     
     unless @@genres.include?(genre)
     
   end 
-  
-  
-  
-  
-  
-  
-  
   
 end
     

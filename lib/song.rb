@@ -39,14 +39,24 @@ class Song
   
   def self.genre_count
     
-     @@genres.map do |type|
+    genre_count_h = {}
     
-      if @@genres.include?(type)
+     @@genres.each do |type|
+    
+      if genre_count_h[type]
         
-  ( @@genres[type] ||= [] ) << [ date, v ]
+          genre_count_h[type] += 1
         
+      else 
         
-  
+        genre_count_h[type] = 1
+        
+      end
+      
+    end
+    
+    genre_count_h
+    
 end
     
     

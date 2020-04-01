@@ -39,7 +39,8 @@ class Song
   
   def self.genre_count
     
-    if @@genres
+    if @@genres.has_key?(key)
+      
     
     
     else

@@ -63,6 +63,21 @@ def self.artist_count
 
   artist_count_h = {}
   
+  @@artists.each do |name|
+    
+    if artist_count_h[name]
+    
+      artist_count_h[name] =+ 1 
+      
+    else
+      
+      artist_count_h[name] = 1
+      
+    end
+    
+  end
+  artist_count_h
+end 
   
 end
     

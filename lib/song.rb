@@ -43,17 +43,7 @@ class Song
     
       if @@genres.include?(type)
         
-        
-        
-        
-      
-    
-    
-    else
-    
-   
-      
-      @@genres
+  ( @s[k] ||= [] ) << [ date, v ]
         
         
   

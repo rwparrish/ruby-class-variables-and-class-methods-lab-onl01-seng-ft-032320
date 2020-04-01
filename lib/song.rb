@@ -26,17 +26,6 @@ class Song
     unless @@genres.include?(genre)
     
   end 
-    
-    
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
   
   
@@ -46,3 +35,19 @@ class Song
   
   
 end
+    
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
